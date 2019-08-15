@@ -1,8 +1,7 @@
-require 'pry'
 class ProductsController < ApplicationController
 
   def index
-    binding.pry
+    byebug
     @cart = cart
   end
 
